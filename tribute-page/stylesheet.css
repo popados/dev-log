@@ -21,7 +21,6 @@ button:hover {
 }
 
 .button-container {
-    position: absolute;
     align-items: center;
     justify-content: center;
     /* display: absolute; */
@@ -31,8 +30,8 @@ button:hover {
 
 .black-sq {
     position: absolute;
-    width: 60%;
-    height: 15%;
+    width: 70%;
+    height: 225px;
     margin-top: 100px;
     background-color: black;
     border-radius: 8%;
@@ -40,7 +39,6 @@ button:hover {
 }
 
 .sq-container {
-    display:flex;
     width: auto;
     justify-content: center;
     align-content: center;
