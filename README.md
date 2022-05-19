@@ -1,6 +1,6 @@
 <div id=top-of-doc></div>
 
-# Progress Record 2022 |
+# Progress Record 2022 | 100 Days Of Code
 
 ***
 
@@ -26,6 +26,21 @@ My idea for a game:
 - Tower is boss
 
 - Waves are players
+
+***
+
+### 003 | 5/11/2022 - Wednesday
+
+Maybe change to be like wirebugs from Monster Hunter Rise.
+
+The "enemy" throws out wires to the main object
+
+***
+
+### 004 | 5/18/2022 - Wednesday
+
+Reworking this markdown file into #100DaysOfCode folder.. again
+ 
 
 ***
 
