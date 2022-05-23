@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>nav-bar-01</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<a href="https://github.com/popados" >[My Github Account] </a>
+</head>
+<body>
+    <h1>nav-bar-01</h1>
+    <div class="nav-bar">
+        <!--Brand-->
+        <a href="#" class="navbar-brand">Logo</a>
+        <!--Toggler/collapsible Button-->
+        
+        <button type="button" >
+           <span class="navbar-toggler-icosn"></span>
+        </button>
+ 
+        <input type="checkbox" id="toggle" />
+        <label id="show-menu" for="toggle">
+        <!--Links-->
+        <div class="" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <!--Active Link-->
+                <a href="#" class="nav-item nav-link">Settings</a>
+                <!--Dropdown-->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Messages</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Inbox</a>
+                        <a href="#" class="dropdown-item">Sent</a>
+                        <a href="#" class="dropdown-item">Drafts</a>
+                       </div>
+                       <a href="#" class="nav-item nav-link disabled">Notifications</a>
+                   </div>
+                   <!--Disabled Link-->
+               </div>
+         
+            <!--Nav Bar Form-->
+            <form class="form-inline">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+
+<div></div>
+</body>
+<script src="script.js"> </script>
+</html>
+

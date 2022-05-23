@@ -1,0 +1,107 @@
+.img-body {
+    /* background-image: url("http://media.stubhubstatic.com/stubhub-catalog/d_defaultLogo.jpg/q_auto:low,f_auto,w_1600,c_limit/category/490277/spohzkmprtbnngxgdito"); */
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    padding-left: 20%;
+    height: fit-content;
+}
+
+
+img {
+    
+}
+
+li {
+    list-style: none;
+}
+
+.link-github {
+    justify-content: left;
+    align-self: auto;
+}
+
+.header-img {
+    margin-left: -20%;
+    margin-top: 2%;
+    /* background-image: url(http://media.stubhubstatic.com/stubhub-catalog/d_defaultLogo.jpg/q_auto:low,f_auto,w_1600,c_limit/category/490277/spohzkmprtbnngxgdito); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* overflow: hidden; */
+}   
+
+.nav-bar {
+    display: flex;
+    background-color: darkcyan;
+    color: black;
+    width: 100%;
+    
+}
+.nav-bar>img{
+    width: 20%;
+    float: right;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > li {
+    margin: 0px 15px;
+    padding: 25px 50px;
+    border: 2px solid black;
+    width: 100%;
+    /* align-self: center; */
+   }
+
+
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-left: -7%;
+}
+
+.img-container>img {
+    margin: 5%;
+}
+
+.img-container>img:hover{
+    transform: scale(1.5);
+    border: 2px solid white;
+}
+
+.poster-container {
+    display: flex;
+    align-self: flex-start;
+    width: 30%;
+    height: 80%;
+    margin-top: 5%;
+    margin-left: -12%;
+    /* align-self: center; */
+}
+
+.poster-container>img:hover {
+    transform: scale(1.8);
+    border: 2px solid white;
+}
+
+.poster-container > img {
+    margin: 5% 8% 5% 5% ;
+}
+
+.text-container {
+    height: auto;
+
+}
+
+.crowd-img {
+    /* margin-left: -5%; */
+    align-self: center;
+    justify-self: center;
+    height: auto;
+    padding: 25px;
+}

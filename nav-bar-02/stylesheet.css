@@ -1,0 +1,204 @@
+* {
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* display: flex; */
+    
+    /* background-color: black; */
+   } 
+
+   body {
+       /* display: flex; */
+   }
+
+a {
+    /* display: block; */
+    text-decoration: none;
+    color: green;
+
+}
+
+header {
+    /* background-color: blue; */
+}
+
+.wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    width: 1024px;
+    height: 768px;
+    /* width: 100vh; */
+    /* flex-wrap: wrap; */
+
+}
+
+
+a:visited{
+    color: green;
+}
+
+
+/* can display flex here for li */
+ul {
+    /* display: flex; */
+    list-style: none;
+
+    /* padding: 25px; */
+    /* padding: -100px; */
+    /* margin-left: 10px;     */
+}
+
+
+li {
+    /* float: left; */
+    display: flex;
+    list-style: none;
+    /* padding: -100px; */
+    /* margin-left: 10px; */
+    padding: 25px;
+    /* border-right: 5px solid red;  */
+    /* float: left; */
+
+    
+    /* border-top: 5px solid red; */
+    border: 2px solid red;
+}
+
+li:focus,
+li:hover {
+    /* background-color: rgb(102, 102, 102); */
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    transition: all 1s ease-in-out;
+}
+
+
+/* li:hover .banner {
+    width: 1024px;
+    transition: all 2s ease-in-out;
+} */
+
+
+.nav-bar {
+    /* border-left: 2px solid red; */
+    /* display: flex; */
+    background-color: black;
+    color: red;
+    position: relative;
+    height: 100%;
+    width: 200px;
+    /* flex-wrap: wrap; */
+    /* overflow: hidden; */
+    /* flex-flow: column; */
+    /* transform: translateX(-250px); */
+}
+
+.nav-bar-text {
+    /* margin-bottom: 25px; */
+    font-size: 32px;
+    height: 125px;
+    text-align: center;
+    /* vertical-align:middle; */
+    border-right: 2px solid red;
+}
+
+.side-bar { 
+    width: 25%;
+    /* display: flex; */
+    /* flex-basis: 33%; */
+}
+
+.nav-bar:hover ~ .about {
+    width: 1024px;
+    height: 768px;
+    transition: all 2s ease-out;
+}
+
+/* .home:hover  .banner {
+    width: 1024px;
+    height: 768px;
+    transition: all 2s ease-out;
+}
+ */
+
+
+
+/* li:hover ~ .banner {
+    width: 1024px;
+    transition: all 2s ease-in-out;
+} */
+    /* transition: transform 2s ease-in-out;
+    transform: translateX(50px); */
+
+
+.hamburger-icon {
+    /* width: 16px; */
+    /* height: 16px; */
+    background-color: red;
+
+}
+
+.cn-button {
+    /* justify-self: center; */
+    width: 150px;
+}
+
+
+
+/* hides checkbox and icon */
+
+#checkbox, .hamburger-icon span {
+    /* display: none; */
+}
+
+.banner-wrap {
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+
+.banner-wrap:hover {
+ 
+}
+
+/* .banner:hover {
+    width: 1024px;
+    transition: all 2s ease-in-out;
+} */
+
+.banner {
+    background-color: rgb(30, 0, 255);
+    width: 0px;
+    /* margin-left: 50%; */
+    height: 0px;
+    color: white;
+    text-align: left;
+    transition: all 2s ease-in;
+}
+
+.about {
+    background-color: orange;
+    width: 0px;
+    /* margin-left: 50%; */
+    height: 0px;
+    color: white;
+    text-align: left;
+    transition: all 2s ease-in;
+}
+.other-books {
+    background-color: rgb(30, 0, 255);
+    width: 0px;
+    /* margin-left: 50%; */
+    height: 0px;
+    color: white;
+    text-align: left;
+    transition: all 2s ease-in;
+}
+
+
+.page {
+    position: relative;
+    width: 100%;
+    background-color: darkgray;
+}
