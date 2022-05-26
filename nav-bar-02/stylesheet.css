@@ -9,8 +9,12 @@ body {
 }
 
 a {
+    background-color: rgb(90,90,90);
     text-decoration: none;
+    /* border: 1px solid red; */
     color: green;
+    padding: 25px;
+    height: 75px;
     
 
 }
@@ -41,11 +45,12 @@ ul {
 }
 
 li {
-    border: 2px solid red;
     list-style: none;
-    padding: 25px;
     background-color: black;
     color: red;
+    border: 1px solid red;
+    padding: 25px;
+    height: auto;
 
 }
 
@@ -81,23 +86,24 @@ li {
 
 }
 
-.about:hover {
-    background-color: rgb(71, 71, 71);
-    height: 768px;
-    width: 1024px;
-    margin-top: -198px;
-}
-.other-books:hover {
-    background-color: rgb(71, 71, 71);
-    height: 768px;
-    width: 1024px;
-    margin-top: -270px;
-}
 .quotes:hover {
     background-color: rgb(71, 71, 71);
     height: 768px;
     width: 1024px;
-    margin-top: -341px;
+    margin-top: -195px;
+}
+
+.other-books:hover {
+    background-color: rgb(71, 71, 71);
+    height: 768px;
+    width: 1024px;
+    margin-top: -268px;
+}
+.about:hover {
+    background-color: rgb(71, 71, 71);
+    height: 768px;
+    width: 1024px;
+    margin-top: -335px;
 }
 
 

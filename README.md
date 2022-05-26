@@ -133,6 +133,22 @@ Continuing with the web-page a day challenge. This is my own deal where I take a
 
 ### 007 | 5/21/2022 - Saturday
 
+***
+
+### 008 | 5/25/2022 - Wednesday
+
+I've been doing this for awhile now. This is my 8th entry into the README.md file.
+
+I did not complete a web-page a day however I am continuing to move forward. I need a spell checker for VSCode.
+
+When to use img tag vs background-image :
+
+- https://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image
+
+In essence the idea is background-image is used for non-essential images. Use img to convey meaning(with a tag) behind warning signs and other accessibility methods. 
+
+
+Starting flex container fun
 
 
 ***
