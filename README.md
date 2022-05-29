@@ -15,6 +15,15 @@ Started Brackeys tutorial.
 
 - [Brackeys tutorial](https://www.youtube.com/playlist?list=PLPV2KyIb3jR4u5jX8za5iU1cqnQPmbzG0)
 
+- https://thewhitelabelagency.com/recommended-screen-resolution-for-web-design/
+
+- https://comparium.app/blog/common-screen-resolutions/
+
+- https://www.w3schools.com/browsers/browsers_display.asp
+
+
+- https://medium.com/@flik185/understanding-device-resolution-for-web-design-and-development-3bb4a5183478
+- 
 
 ***
 
@@ -60,6 +69,10 @@ I have been working on simple projects :
 
 
 [Twitter Thread with Ideas](https://twitter.com/swapnakpanda/status/1526906873831915520)
+
+<details>
+
+<summary> Web Page Ideas </summary>
 
 These ideas are for single page sites with HTML & CSS (Maybe add JS later)
 
@@ -122,6 +135,7 @@ These ideas are for single page sites with HTML & CSS (Maybe add JS later)
 
 - Advertisment Page
 
+</details>
 
 ***
 
@@ -148,8 +162,22 @@ When to use img tag vs background-image :
 In essence the idea is background-image is used for non-essential images. Use img to convey meaning(with a tag) behind warning signs and other accessibility methods. 
 
 
-Starting flex container fun
+Starting flex container fun.
 
+- nav-bar-04 is using :
+
+    - https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535
+
+    - [Before and After psuedo elements](https://www.youtube.com/watch?v=xoRbkm8XgfQ)
+
+
+
+- create script that puts the fetch method first and you enter [name] [api]
+
+- https://getwaves.io/
+
+
+- nav-bar-03 became quotes-02
 
 ***
 

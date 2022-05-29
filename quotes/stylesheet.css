@@ -1,0 +1,99 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+body {
+    background-color: black;
+    color: green;
+
+}
+
+a {
+text-decoration: none;
+color: green;
+
+}
+
+header {
+background-color: black;
+border-bottom: 1px solid red;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.sq-border {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+
+.flex-zone {
+    display: flex;
+    background-color: rgb(70, 5, 0);
+    border-radius: 75px 75px 75px 75px;
+    border-top-right-radius:75px;
+}
+
+
+.text-container {
+    display: flex;
+    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    margin: 0 auto;
+    }
+
+
+    .cutout {
+        height: 225px;
+        transform: rotate(45deg);
+        width: 64px;
+        margin-left: -30px;
+        background-color: green;
+
+    }
+
+
+    .book-spine{
+        height: 350px;
+        width: 5px;
+        background-color: white;
+
+    }
+
+
+
+    .book-banner {
+        display: flex;
+        width: 125px;
+        height: 450px;
+        background-color: rgb(189, 173, 151);
+        margin: 0 auto;
+        align-self: center;
+        border: 5px solid black;
+    }
+
+
+    .book-pages{
+        height: 450;
+        width: 5px;
+        margin: 0;
+        border-right: 1px solid black;
+        display: block;
+        filter: blur(1px);
+    }
+
+    .book-pages:nth-of-type(n){
+        margin-left: 2px;
+
+    }

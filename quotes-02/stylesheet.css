@@ -1,0 +1,151 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+body {
+    width: 1440;
+    height: 400vh;
+    margin-top: 50px;
+    background-color: rgb(67,67,67);
+}
+
+a {
+text-decoration: none;
+color: green;
+}
+
+header {
+background-color: black;
+height: 40px;
+width: 100%;
+border-bottom: 1px solid red;
+position:fixed;
+z-index: 2;
+top: 0;
+opacity: 100%;
+right: 0;
+left: 0;
+}
+
+.title h1 {
+}
+
+
+.top-wave {
+    margin-top: 250px;
+    width: 4000px;
+
+}
+
+.bottom-wave {
+    margin-top:-25px;
+    width: 4000px;
+}
+
+.portrait-sq{
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 125px;
+    box-shadow: 0 0 2px 5px black;
+    border-radius: 15px 0 120px 15px;
+}
+
+/* .big-sq{
+    position: absolute;
+    width: 1280px;
+    height: 450px;
+    border: 1px solid black;
+    margin-left: 225px;
+    margin-top: 50px;
+
+
+} */
+
+.circle {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 415px;
+    border: 2px solid white;
+    box-shadow: inset 0 5px 2px  black;
+}
+
+.circle p {
+    color: white;
+    font-size: 128px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.quote-bubble:before {
+    content:'';
+    width: 40px;
+    height: 225px;
+    position:absolute;
+    background-color: inherit;
+    margin-left: -60px;
+    border-radius: inherit;
+    box-shadow: inherit;
+
+
+}
+
+.quote-bubble {
+    width: 40px;
+    height: 150px;
+    position:absolute;
+    background-color: white;
+    margin-left: 715px;
+    margin-top: 375px;
+    border-radius: 25px 25px;
+    box-shadow: -5px 5px;
+
+}
+
+.quote-bubble:after {
+    content:'';
+    width: 40px;
+    height: 75px;
+    position:absolute;
+    background-color: inherit;
+    margin-left: 60px;
+    border-radius: inherit;
+    box-shadow: inherit;
+
+}
+
+
+.the-quote{
+    position: absolute;
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    margin-left: 850px;
+    margin-top: 125px;
+    border-radius: 70px;
+    box-shadow: -5px 5px 5px black;
+
+
+}
+
+
+
+@media all and (max-width: 1050px) {
+        
+    .the-quote{
+        height:100px;
+    }
+
+    .portrait-sq {
+        height: 100px;  
+    }
+}
