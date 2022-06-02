@@ -1,0 +1,116 @@
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+body {
+    justify-content: center;
+    align-items: center;
+    width: 1440;
+    height: 400vh;
+    margin-top: 50px;
+    background-color: rgb(67,67,67);
+}
+
+a {
+text-decoration: none;
+color: green;
+}
+
+header {
+background-color: black;
+height: 40px;
+width: 100%;
+border-bottom: 1px solid red;
+position:fixed;
+z-index: 2;
+top: 0;
+opacity: 100%;
+right: 0;
+left: 0;
+}
+
+.wrapper{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.gengar-body{
+    width: 900px;
+    height: 950px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.gengar-smile {
+    position: absolute;
+    margin-top: 300px;
+    height: 450px;
+    width: 700px;
+    background-color: white;
+    border-radius: 50%;
+
+    
+}
+
+.gengar-cutout {
+    position: absolute;
+    margin-top: 270px;
+    height: 250px;
+    width: 725px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+
+.gengar-left-ear {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 420px;
+    height: 550px;
+    width: 350px;
+    background-color: purple;
+    border-top-right-radius: 80%;
+    transform: rotate(45deg) skew(35deg);
+}
+
+
+.gengar-right-ear {
+    position: absolute;
+    margin-top: -125px;
+    margin-left: -420px;
+    height: 450px;
+    width: 350px;
+    background-color: purple;
+    border-top-right-radius: 80%;
+    border-bottom-left-radius: 80%;
+    transform: scale(1,-1) rotate(230deg) skew(35deg);
+}
+
+
+.gengar-left-eye {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -420px;
+    height: 150px;
+    width: 250px;
+    background-color: black;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 25%;
+    transform: rotate(15deg) skew(45deg);
+}
+
+.gengar-right-eye {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 420px;
+    height: 100px;
+    width: 250px;
+    background-color: black;
+    border-radius: 225px 225px 0 0;
+    transform: scale(1,-1) ;
+}

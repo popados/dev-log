@@ -181,7 +181,32 @@ Starting flex container fun.
 
 ***
 
+### 009 | 5/31/2022 - Tuesday
 
+Decided to do Pokemon drawings in CSS. Learning alot about border raidus. The idea is to make a vector image using CSS shapes only. This is tougher than I previously thought. So far I'm struggling with the concept of having straight edges and curved edges. I might need to mess around with the "transform: skew();" method.
+
+***
+
+### 010 | 6/1/2022 - Wednesday
+
+Today I don't really know what I want to do. Probably more CSS until I figure out the shapes and stuff.
+
+I want to build some javascript stuff. My only issue is finding out what I want to build. Most of the things I think of are API based.
+
+- [CSS Cheatsheet](https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf)
+
+
+- [MSDN HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+- [Emmet Cheatsheet](https://docs.emmet.io/cheat-sheet/)
+
+- [Emmet Documentation](https://docs.emmet.io/)
+
+- [More keybinds for Emmet](https://marketplace.visualstudio.com/items?itemName=agutierrezr.emmet-keybindings)
+
+- [Asymptotic Functions & Notations](https://knovhov.com/big-o-notation-fastest-to-slowest-time-complexity/)
+
+***
 
 ***
 
